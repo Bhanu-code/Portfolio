@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbrand{
+    display: inline;
+    position: absolute;
+    margin-left: 3.8rem;
+    font-size: 1.5rem;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 2rem;   
+}
+li a{
+    text-decoration: none;
+    color: red;
+}
+li a:hover{
+    color: white;
+}
+.info{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 6rem;
+    top: 9rem;
+    font-size: 2rem;
+    width: 55%;
+}
+.mypicture{
+    position: relative;
+    bottom: 2rem;
+    left: 17rem;
+}
+.edu{
+    position: relative;
+    margin: 1rem;
+    top: 7rem;
+    padding: 3rem;
+}
+ul{
+    list-style: none;
+}
+.exp{
+    position: relative;
+    margin: 1rem;
+    left: 6.2rem;
+    top: 4.5rem;
+    padding: 3rem;
+}
+.active{
+    color:blue
+}
+.skills{
+    margin: 4rem;
+    display: inline-block;
+    top: 2rem;
+}
+.skill{
+    position: relative;
+    top:1.5rem;
+}
+.skills td{
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.red{
+    color: red;
+}
+.cvbtn{
+    width: 80%;
+    height: 2rem;
+    position: relative;
+    background-color: blue;
+    color: white;
+    top: 13.5rem;
+    right: 18rem;
+    font-size: 1rem;
+    /* box-shadow: inset; */
+    border-radius: 20px;
+}
+.cvbtn:hover{
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+.project{
+    display: relative;
+    margin-left: 34rem;
+    bottom: 3rem;
+}
+.contact{
+    list-style: none;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
